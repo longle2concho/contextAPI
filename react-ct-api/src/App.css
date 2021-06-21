@@ -1,0 +1,28 @@
+.App{
+  box-sizing: border-box;
+  display:flex;
+  background-color: coral;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  overflow-x: hidden;
+}
+input{
+  border: 10px solid white;
+  overflow-y: auto;
+  border-radius: 20px;
+  margin: 5px;
+}
+input:focus{
+  outline: none;
+}
+button{
+  Border: 1px solid grey;
+  border-width: 1px;
+ }
+ button:focus{
+   outline: none;
+   cursor: pointer;
+ }
+ 
